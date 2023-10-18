@@ -1,4 +1,6 @@
-# Reusable Components with Tailwind CSS
+# Reactify UI Kit
+
+>Reusable Components with Tailwind CSS
 
 A collection of reusable components built using Tailwind CSS that you can easily integrate into your React and Next.js projects.
 
