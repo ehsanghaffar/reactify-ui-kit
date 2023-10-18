@@ -2,15 +2,18 @@
   "name": "@ehsanghaffar/ein-components",
   "version": "0.0.1",
   "description": "components library for nextjs and react apps",
-  "main": "index.js",
   "publishConfig": {
     "@ehsanghaffar:registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist"
   ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts", 
   "scripts": {
-    "build": "vite build && tsc"
+    "build": "vite build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
