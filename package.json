@@ -1,7 +1,7 @@
 {
-  "name": "@ehsanghaffar/tutorify-components",
+  "name": "@ehsanghaffar/ein-components",
   "version": "0.0.1",
-  "description": "components library of tutorifyAI",
+  "description": "components library for nextjs and react apps",
   "main": "index.js",
   "publishConfig": {
     "@ehsanghaffar:registry": "https://npm.pkg.github.com"
