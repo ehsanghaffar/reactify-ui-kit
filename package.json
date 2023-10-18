@@ -1,10 +1,16 @@
 {
-  "name": "tutorify-components",
+  "name": "@ehsanghaffar/tutorify-components",
   "version": "0.0.1",
   "description": "components library of tutorifyAI",
   "main": "index.js",
+  "publishConfig": {
+    "@ehsanghaffar:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build && tsc"
   },
   "keywords": [
     "react",
@@ -14,7 +20,9 @@
   "author": "Ehsan Ghaffar",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.2.29",
     "react": "^18.2.0",
+    "typescript": "^5.2.2",
     "vite": "^4.5.0"
   },
   "peerDependencies": {
