@@ -1,0 +1,19 @@
+{
+  "name": "tutorify-components",
+  "version": "0.0.1",
+  "description": "components library of tutorifyAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "components"
+  ],
+  "author": "Ehsan Ghaffar",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^18.2.0"
+  }
+}
