@@ -1,9 +1,9 @@
 {
-  "name": "@ehsanghaffar/ein-components",
+  "name": "@ehsanghaffar/einlib",
   "version": "0.0.1",
   "description": "components library for nextjs and react apps",
   "publishConfig": {
-    "@ehsanghaffar:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist"
@@ -30,6 +30,7 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
+
   },
   "peerDependencies": {
     "react": "^18.2.0"
